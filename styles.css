@@ -1,0 +1,281 @@
+@font-face {
+  font-family: "lulo";
+  src: url("lulo.ttf") format("TrueType");
+}
+@font-face {
+  font-family: "proxima";
+  src: url("proxima.otf") format("OpenType");
+}
+@font-face {
+  font-family: "belinda";
+  src: url("belinda.otf") format("OpenType");
+}
+body{
+  margin: 0;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+h1,h2,h3,h4{
+  font-family: "lulo";
+}
+p,button,a{
+  font-family: "proxima";
+}
+.social-img{
+  position: fixed;
+  right: 3%;
+  top: 40%;
+}
+.social-img a{
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 12px;
+  text-align: center;
+}
+.first-div{
+  width: 100%;
+  text-align: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1%;
+  padding-bottom: 10%;
+}
+.nav p{
+  display: inline-block;
+  padding: 5px 20px 5px;
+}
+.nav p:hover{
+  border-top: 2px solid white;
+}
+.first-div h1{
+  font-size: 6.75rem;
+  margin-bottom: 0;
+  padding-top: 6%;
+  padding-bottom: 0;
+}
+.first-div h2{
+  margin-top: 0;
+  font-size: 7.25rem;
+  margin-bottom: 1%;
+  padding-top: 0;
+  font-family: "belinda";
+  font-weight: lighter;
+  position: absolute;
+  left: 40%;
+  top: 47%;
+}
+.first-div button{
+  font-size: 1.25rem;
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  margin-top: 6%;
+  padding: 8px 40px;
+}
+.first-div button:hover {
+  border: 2px solid white;
+}
+.tab-divs{
+  width: 100%;
+  text-align: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 13%;
+  padding-bottom: 13%;
+}
+.tab-divs h1{
+  font-size: 90px;
+  margin-bottom: 10px;
+}
+.tab-divs button{
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+  padding: 8px 30px;
+  font-size: 1rem;
+}
+.tab-divs button:hover{
+  background-color: #bacfed;
+  border-color: #bacfed;
+}
+footer{
+  margin-bottom: 0;
+  margin-top: 7%;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+}
+/* rooms */
+.our-rooms{
+  color: black;
+  padding-left: 21%;
+}
+.our-rooms h1{
+  width: 76%;
+  padding-bottom: 2%;
+  border-bottom: 2px solid black;
+  margin-bottom: 0;
+}
+.our-rooms table{
+  width: 76%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+.our-rooms p{
+  font-size: 14px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.our-rooms th{
+  text-align: left;
+  font-family: "lulo";
+  font-size: 1.17rem;
+}
+.img-td{
+  width: 32%;
+  padding: 0;
+}
+.img-td img{
+  width: 240px;
+  height: 170px;
+}
+.our-rooms hr{
+  border: none;
+  border-bottom: 2px solid black;
+  width: 76%;
+  margin-left: 0;
+}
+.price-div{
+  text-align: center;
+  width: 20%;
+}
+.price-div button{
+  width: 80%;
+  background-color: white;
+  border: 2px solid black;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 1rem;
+  border-radius: 25px;
+}
+.price-div button:hover{
+  color: white;
+  background-color: black;
+}
+.price-div h2{
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+.price-div h4{
+  font-size: 1.25rem;
+  margin-bottom: 4px;
+}
+.icon{
+  padding-right: 14px;
+}
+/* eat and drink */
+.food-div{
+  padding-top: 3%;
+  color: black;
+  text-align: center;
+  line-height: 1.75;
+}
+.food-div p{
+  margin-top: 0;
+}
+.food-div h3{
+  margin: 3% 0 0;
+}
+/* events */
+.events-div{
+  padding-top: 4%;
+  padding-bottom: 0;
+  text-align: center;
+  color: black;
+}
+.events-div h3{
+  padding-bottom: 2%;
+}
+.events-div p{
+  line-height: 1.75;
+}
+.events-div button{
+  padding: 8px 16px;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 1rem;
+  margin-bottom: 5%;
+}
+.events-div button:hover{
+  background-color: #bacfed;
+  border: 2px solid #bacfed;
+  color: white;
+}
+/* contact */
+.contact-div{
+  padding-top: 4%;
+  color: black;
+  text-align: center;
+}
+.contact-div p{
+  margin: 2% 0;
+  line-height: 2;
+}
+.contact-div a{
+  color: black;
+  padding: 1%;
+  font-size: 2rem;
+}
+.contact-div table{
+  text-align: left;
+  margin: 3% auto auto;
+}
+.contact-div input{
+  width: 100%;
+  border: 3px solid black;
+  height: 3vh;
+  padding-left: 5%;
+  margin-left: 5%;
+}
+.contact-div textarea{
+  width: 100%;
+  border: 3px solid black;
+  padding-left: 5%;
+  padding-top: 3%;
+  margin-left: 5%;
+}
+.contact-div input:hover{
+  border-color: #bacfed;
+}
+.contact-div textarea:hover{
+  border-color: #bacfed;
+}
+#contact-submit{
+  width: auto;
+  height: auto;
+  margin-right: 0;
+  background-color: white;
+  padding: 6px 20px;
+
+}
+/* about */
+.about-div{
+  text-align: center;
+}
+.about-div h3{
+  margin-bottom: 2%;
+}
+.about-div p{
+  line-height: 2;
+}
+.about-div img{
+  width: 800px;
+  height: 500px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
